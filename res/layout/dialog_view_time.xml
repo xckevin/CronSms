@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin" >
+
+    <TextView
+        android:id="@+id/hour_title"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/common_space_tiny"
+        android:text="Hour"
+        android:textSize="@dimen/text_big" />
+
+    <TextView
+        android:id="@+id/mins_title"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/hour_title"
+        android:gravity="center"
+        android:padding="@dimen/common_space_tiny"
+        android:text="Min"
+        android:textSize="@dimen/text_big" />
+
+    <kankan.wheel.widget.WheelView
+        android:id="@+id/hour"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hour_title" />
+
+    <kankan.wheel.widget.WheelView
+        android:id="@+id/mins"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mins_title"
+        android:layout_toRightOf="@id/hour" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hour"
+        android:layout_marginTop="@dimen/common_space_tiny"
+        android:text="Ok" />
+
+</RelativeLayout>

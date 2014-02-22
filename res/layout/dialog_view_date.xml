@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin" >
+
+    <TextView
+        android:id="@+id/month_title"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/common_space_tiny"
+        android:text="Month"
+        android:textSize="@dimen/text_big" />
+
+    <TextView
+        android:id="@+id/day_title"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/month_title"
+        android:gravity="center"
+        android:padding="@dimen/common_space_tiny"
+        android:text="Day"
+        android:textSize="@dimen/text_big" />
+
+    <TextView
+        android:id="@+id/year_title"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/day_title"
+        android:gravity="center"
+        android:padding="@dimen/common_space_tiny"
+        android:text="Year"
+        android:textSize="@dimen/text_big" />
+
+    <kankan.wheel.widget.WheelView
+        android:id="@+id/month"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/month_title" />
+
+    <kankan.wheel.widget.WheelView
+        android:id="@+id/day"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/day_title"
+        android:layout_toRightOf="@id/month" />
+
+    <kankan.wheel.widget.WheelView
+        android:id="@+id/year"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/year_title"
+        android:layout_toRightOf="@id/day" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/day"
+        android:layout_marginTop="@dimen/common_space_tiny"
+        android:text="Ok" />
+
+</RelativeLayout>

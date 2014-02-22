@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="list_sms_operate">
+        <item>编辑信息</item>
+        <item>删除信息</item>
+    </string-array>
+</resources>

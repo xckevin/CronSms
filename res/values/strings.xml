@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">定时信息</string>
+    
+    <string name="action_bar_search">搜索</string>
+    <string name="action_bar_add">添加</string>
+    <string name="action_bar_edit">编辑</string>
+    <string name="action_bar_share">分享</string>
+    <string name="action_bar_sort">排序</string>
+    <string name="action_bar_sort_alpha">字母顺序</string>
+    <string name="action_bar_sort_time">时间顺序</string>
+    <string name="action_bar_share_with">分享&#8230;</string>
+    <string name="action_bar_settings">设置</string>
+    <string name="action_bar_send">发送</string>
+    <string name="action_bar_save">保存</string>
+    <string name="action_bar_invate">邀请</string>
+    
+    <string name="title_edit">编辑信息</string>
+    <string name="title_pick">选取收件人</string>
+    
+    <string name="tab_send">待发送</string>
+    <string name="tab_sent">已发送</string>
+    
+    <string name="dialog_title_operate">操作</string>
+    
+    <string name="edit_to">收件人</string>
+    <string name="edit_msg">内容&#8230;</string>
+    <string name="edit_date">日期</string>
+    <string name="edit_time">时间</string>
+    
+    <string name="edit_to_null">收件人不能为空</string>
+    <string name="edit_body_null">内容不能为空</string>
+    <string name="edit_time_null">请选择发送时间</string>
+
+</resources>
